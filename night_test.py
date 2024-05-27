@@ -8,3 +8,10 @@ class Animal():
     
     def getColor(self):
         return self.color
+    
+    def changeName(self, new_name):
+        self.name = new_name
+        return self.name
+    
+animal1 = Animal('buddy', 'black')
+animal1.getName()
